@@ -1289,7 +1289,7 @@ countries.forEach(({ sigla, nome_pais }) => {
     div.classList.add("flag");
 
     const img = document.createElement("img");
-    img.src = `./svg/${sigla.toLocaleLowerCase()}.svg`;
+    img.src = `https://raquweel.github.io/svg/${sigla.toLowerCase()}.svg`;
     img.alt = nome_pais;
 
     const p = document.createElement("p");
